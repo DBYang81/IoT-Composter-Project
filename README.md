@@ -9,3 +9,12 @@
    
    master branch so far is pretty old code for testing temperature PLEASE IGNORE IT
    KEEP MASTER FOR LATER MERGE!!
+
+## Ultrasound branch
+
+   Ultrasound branch has been created with empty code file and waiting for Gent to push it.
+
+
+## lcd branch
+ 
+   lcd branch has been created with empty code file but try to work on it soon.
