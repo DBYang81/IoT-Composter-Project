@@ -1,8 +1,9 @@
 cmake_minimum_required(VERSION 3.13)
 
-include(pico_sdk_import.cmake)
+include($ENV{PICO_SDK_PATH}external/pico_sdk_import.cmake)
 
-project(pico_temp C CXX ASM)
+project(Decompost_project C CXX ASM)
+
 set(CMAKE_C STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 
@@ -10,14 +11,14 @@ pico_sdk_init()
 
 
 add_executable(proj
-        proj.c
-        )
+        main.c
+	./src/temp_h.c
+	./inc/temp_h.h
+	./src/ssd1306.c
+	./inc/ssd1306.h
+	./inc/font.h
+)
 
-target_link_libraries(proj
-        pico_stdlib              # for core functionality
-        pico_cyw43_arch_none     # we need Wifi to access the GPIO, but we don't need anything else
-        hardware_i2c
-        )
 
 # enable usb output, disable uart output
 pico_enable_stdio_usb(proj 1)
@@ -28,5 +29,4 @@ pico_add_extra_outputs(proj)
 
 target_include_directories(proj PRIVATE ${CMAKE_CURRENT_LIST_DIR} )
 
-# add url via pico_set_program_url
-#example_auto_set_url(proj)
+target_link_libraries(proj pico_cyw43_arch_lwip_threadsafe_background pico_cyw43_arch_none pico_stdlib hardware_i2c)
