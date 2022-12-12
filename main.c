@@ -8,7 +8,8 @@
 #include "inc/ssd1306.h"
 #include "inc/temp_h.h"
 
-
+#include "lwipopts.h"
+#include "proj_mqtt.h"
 
 int main(){
     
@@ -18,6 +19,31 @@ int main(){
         return -1;
     }
     
+    //connect to wifi
+    cyw43_arch_enable_sta_mode();
+    printf("Connecting to WiFi...\n");
+    if (cyw43_arch_wifi_connect_timeout_ms(wifi_ssid, wifi_pass, CYW43_AUTH_WPA2_AES_PSK, 30000)) {
+        printf("Failed to connect\n");
+        return 1;
+    }
+    else {
+        printf("Connected\n");
+    }
+    
+    //create mqtt client
+    mqtt_client_t *client = mqtt_client_new();
+    if (client != NULL) {
+      mqtt_connect(client);
+    }
+    else {
+      printf("mqtt client init failed\n");
+      return -1;
+    }
+	
+    //vars for mqtt
+    err_t err;
+    char payload_buf[30];
+	
     //i2c stuff
     i2c_init(i2c0, 200000); //choose i2c0, 200k speed
     gpio_set_function(0, GPIO_FUNC_I2C); //sda
@@ -65,6 +91,20 @@ int main(){
         cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 1);
 
         sleep_ms(300);
+	    
+	//check mqtt connection
+	if (mqtt_client_is_connected() == 0) {
+            mqtt_connect(client);
+        }
+	    
+        //form mqtt message
+        snprintf(payload_buf, 30, "{\"temp\":\"%.1f\",\"hum\":\"%.1f\"}", deg, hum);
+
+	//publish message
+        err = mqtt_publish(client, data_topic, payload_buf, strlen(payload_buf), 0, 0, mqtt_pub_request_cb, NULL);
+        if(err != ERR_OK) {
+            printf("Publish err: %d\n", err);
+        }
     }
     return 0;
 }
