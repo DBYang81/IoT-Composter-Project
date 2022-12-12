@@ -532,6 +532,30 @@ home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/tcpip.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/tcpip.c.s
 .PHONY : home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/tcpip.c.s
 
+home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.obj: home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.obj
+.PHONY : home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.obj
+
+# target to build an object file
+home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.obj
+.PHONY : home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.obj
+
+home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.i: home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.i
+.PHONY : home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.i
+
+# target to preprocess a source file
+home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.i
+.PHONY : home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.i
+
+home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.s: home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.s
+.PHONY : home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.s
+
+# target to generate assembly for a file
+home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.s
+.PHONY : home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.s
+
 home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp.obj: home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp.c.obj
 .PHONY : home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp.obj
 
@@ -4124,6 +4148,30 @@ src/oled.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/oled.c.s
 .PHONY : src/oled.c.s
 
+src/proj_mqtt.obj: src/proj_mqtt.c.obj
+.PHONY : src/proj_mqtt.obj
+
+# target to build an object file
+src/proj_mqtt.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/proj_mqtt.c.obj
+.PHONY : src/proj_mqtt.c.obj
+
+src/proj_mqtt.i: src/proj_mqtt.c.i
+.PHONY : src/proj_mqtt.i
+
+# target to preprocess a source file
+src/proj_mqtt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/proj_mqtt.c.i
+.PHONY : src/proj_mqtt.c.i
+
+src/proj_mqtt.s: src/proj_mqtt.c.s
+.PHONY : src/proj_mqtt.s
+
+# target to generate assembly for a file
+src/proj_mqtt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/proj_mqtt.c.s
+.PHONY : src/proj_mqtt.c.s
+
 src/ssd1306.obj: src/ssd1306.c.obj
 .PHONY : src/ssd1306.obj
 
@@ -4251,6 +4299,9 @@ help:
 	@echo "... home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/tcpip.obj"
 	@echo "... home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/tcpip.i"
 	@echo "... home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/tcpip.s"
+	@echo "... home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.obj"
+	@echo "... home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.i"
+	@echo "... home/dby/Documents/project/master/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.s"
 	@echo "... home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp.obj"
 	@echo "... home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp.i"
 	@echo "... home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp.s"
@@ -4700,6 +4751,9 @@ help:
 	@echo "... src/oled.obj"
 	@echo "... src/oled.i"
 	@echo "... src/oled.s"
+	@echo "... src/proj_mqtt.obj"
+	@echo "... src/proj_mqtt.i"
+	@echo "... src/proj_mqtt.s"
 	@echo "... src/ssd1306.obj"
 	@echo "... src/ssd1306.i"
 	@echo "... src/ssd1306.s"

@@ -21,8 +21,12 @@ add_executable(proj
 	./src/oled.c
 	./inc/ultrasonic.h
 	./src/ultrasonic.c
+	./inc/proj_mqtt.h
+	./src/proj_mqtt.c
 )
 
+target_sources(proj PRIVATE 
+	${PICO_SDK_PATH}/lib/lwip/src/apps/mqtt/mqtt.c)
 
 # enable usb output, disable uart output
 pico_enable_stdio_usb(proj 1)

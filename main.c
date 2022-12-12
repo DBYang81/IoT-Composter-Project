@@ -9,7 +9,8 @@
 #include "inc/temp_h.h"
 #include "inc/ultrasonic.h"
 #include "inc/oled.h"
-
+#include "inc/proj_mqtt.h"
+#include "lwipopts.h"
 
 int main(){
     
@@ -29,6 +30,31 @@ int main(){
     char* humDescription = "Humidity: ";
     char degBuff[10];
     char humBuff[10];
+
+//connect to wifi
+    cyw43_arch_enable_sta_mode();
+    printf("Connecting to WiFi...\n");
+    if (cyw43_arch_wifi_connect_timeout_ms(wifi_ssid, wifi_pass, CYW43_AUTH_WPA2_AES_PSK, 30000)) {
+        printf("Failed to connect\n");
+        return 1;
+    }
+    else {
+        printf("Connected\n");
+    }
+
+    //create mqtt client
+    mqtt_client_t *client = mqtt_client_new();
+    if (client != NULL) {
+      mqtt_connect(client);
+    }
+    else {
+      printf("mqtt client init failed\n");
+      return -1;
+    }
+
+    //vars for mqtt
+    err_t err;
+    char payload_buf[60];
 
 
     while (1){
@@ -52,10 +78,32 @@ int main(){
         oledShow();
 
         cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 0);
-        sleep_ms(1000);
-    }
+        sleep_ms(100);
 
-     
+//check mqtt connection
+        if (mqtt_client_is_connected(client) == 0) {
+            mqtt_connect(client);
+        }
+            
+        //form mqtt message
+        snprintf(payload_buf, 60, "{\"temperature\":\"%.1f\",\"humidity\":\"%.1f\",\"distance\":\"%5.2f\"}", deg, hum, distance);
+	
+	printf("%s", payload_buf);
+
+        //publish message
+        err = mqtt_publish(client, "controller/status", payload_buf, strlen(payload_buf), 0, 0, mqtt_pub_request_cb, NULL);
+
+	if(distance < 2) {
+	        err = mqtt_publish(client, "controller/message", "Put more wastes!", strlen("Put more wastes!"), 0, 0, mqtt_pub_request_cb, NULL);
+
+	}else if(hum > 15){
+		err = mqtt_publish(client, "controller/message", "Humidity too HIGH!", strlen("Humidity too HIGHT!"), 0, 0, mqtt_pub_request_cb, NULL);
+	}
+	if(err != ERR_OK) {
+            printf("Publish err: %d\n", err);
+        }
+
+    }  
   
     return 0;
 }

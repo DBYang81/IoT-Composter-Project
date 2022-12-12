@@ -111,4 +111,9 @@ CMakeFiles/proj.dir/main.c.obj: \
  /home/dby/Documents/project/master/IoT-Composter-Project/inc/ultrasonic.h \
  /home/dby/Documents/project/master/IoT-Composter-Project/inc/oled.h \
  /home/dby/Documents/project/master/IoT-Composter-Project/inc/ssd1306.h \
- /home/dby/Documents/project/master/IoT-Composter-Project/inc/temp_h.h
+ /home/dby/Documents/project/master/IoT-Composter-Project/inc/temp_h.h \
+ /home/dby/Documents/project/master/IoT-Composter-Project/inc/proj_mqtt.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/apps/mqtt.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/apps/mqtt_opts.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
+ /home/dby/Documents/project/master/IoT-Composter-Project/lwipopts.h
