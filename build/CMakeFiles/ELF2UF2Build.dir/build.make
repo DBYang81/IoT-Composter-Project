@@ -88,7 +88,7 @@ elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build: elf2uf2/src/ELF2UF2Build-stam
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
-	cd /home/dby/Documents/project/master/IoT-Composter-Project/build/elf2uf2 && /usr/bin/cmake "-GUnix Makefiles" /home/dby/Documents/project/master/pico-sdk/tools/elf2uf2
+	cd /home/dby/Documents/project/master/IoT-Composter-Project/build/elf2uf2 && /usr/bin/cmake "-GUnix Makefiles" /home/dby/Documents/project/master/IoT-Composter-Project/pico-sdk/tools/elf2uf2
 	cd /home/dby/Documents/project/master/IoT-Composter-Project/build/elf2uf2 && /usr/bin/cmake -E touch /home/dby/Documents/project/master/IoT-Composter-Project/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
@@ -103,7 +103,7 @@ elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install: elf2uf2/src/ELF2UF2Build-st
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ELF2UF2Build'"
-	/usr/bin/cmake -E make_directory /home/dby/Documents/project/master/pico-sdk/tools/elf2uf2
+	/usr/bin/cmake -E make_directory /home/dby/Documents/project/master/IoT-Composter-Project/pico-sdk/tools/elf2uf2
 	/usr/bin/cmake -E make_directory /home/dby/Documents/project/master/IoT-Composter-Project/build/elf2uf2
 	/usr/bin/cmake -E make_directory /home/dby/Documents/project/master/IoT-Composter-Project/build/elf2uf2
 	/usr/bin/cmake -E make_directory /home/dby/Documents/project/master/IoT-Composter-Project/build/elf2uf2/tmp

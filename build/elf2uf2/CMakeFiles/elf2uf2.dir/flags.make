@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/dby/Documents/project/master/pico-sdk/src/common/boot_uf2/include
+CXX_INCLUDES = -I/home/dby/Documents/project/master/IoT-Composter-Project/pico-sdk/src/common/boot_uf2/include
 
 CXX_FLAGS = -std=gnu++14
 

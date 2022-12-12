@@ -68,9 +68,9 @@ include pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43
 
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio.h
 
-pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio.h: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio
+pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio.h: ../pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
-	cd /home/dby/Documents/project/master/IoT-Composter-Project/build/pico-sdk/src/rp2_common/cyw43_driver && ../../../../pioasm/pioasm -o c-sdk /home/dby/Documents/project/master/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio /home/dby/Documents/project/master/IoT-Composter-Project/build/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio.h
+	cd /home/dby/Documents/project/master/IoT-Composter-Project/build/pico-sdk/src/rp2_common/cyw43_driver && ../../../../pioasm/pioasm -o c-sdk /home/dby/Documents/project/master/IoT-Composter-Project/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio /home/dby/Documents/project/master/IoT-Composter-Project/build/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio.h
 
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.pio.h
@@ -86,6 +86,6 @@ pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/clean
 
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend:
-	cd /home/dby/Documents/project/master/IoT-Composter-Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dby/Documents/project/master/IoT-Composter-Project /home/dby/Documents/project/master/pico-sdk/src/rp2_common/cyw43_driver /home/dby/Documents/project/master/IoT-Composter-Project/build /home/dby/Documents/project/master/IoT-Composter-Project/build/pico-sdk/src/rp2_common/cyw43_driver /home/dby/Documents/project/master/IoT-Composter-Project/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dby/Documents/project/master/IoT-Composter-Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dby/Documents/project/master/IoT-Composter-Project /home/dby/Documents/project/master/IoT-Composter-Project/pico-sdk/src/rp2_common/cyw43_driver /home/dby/Documents/project/master/IoT-Composter-Project/build /home/dby/Documents/project/master/IoT-Composter-Project/build/pico-sdk/src/rp2_common/cyw43_driver /home/dby/Documents/project/master/IoT-Composter-Project/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/depend
 

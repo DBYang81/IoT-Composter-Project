@@ -12,7 +12,7 @@ void mqtt_connect(mqtt_client_t *client) {
     ci.keep_alive = 100;
         
     ip_addr_t mqtt_broker;
-    IP4_ADDR(&mqtt_broker, 192, 168, 8, 1);
+    IP4_ADDR(&mqtt_broker, 192, 168, 1, 163);
 
     err = mqtt_client_connect(client, &mqtt_broker, MQTT_PORT, mqtt_connect_cb, 0, &ci);
 
@@ -82,6 +82,6 @@ void mqtt_incoming_data_cb(void *arg, const u8_t *data, u16_t len, u8_t flags) {
 
 void mqtt_pub_request_cb(void *arg, err_t result) {
     if(result != ERR_OK) {
-        printf("Publish result: %d\n", result);
+        printf("\nPublish result: %d\n", result);
     }
 }

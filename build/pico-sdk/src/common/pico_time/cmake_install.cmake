@@ -1,4 +1,4 @@
-# Install script for directory: /home/dby/Documents/project/master/pico-sdk/src/common/pico_time
+# Install script for directory: /home/dby/Documents/project/master/IoT-Composter-Project/pico-sdk/src/common/pico_time
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

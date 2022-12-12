@@ -1,4 +1,4 @@
-# Install script for directory: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/cyw43_driver
+# Install script for directory: /home/dby/Documents/project/master/IoT-Composter-Project/pico-sdk/src/rp2_common/cyw43_driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

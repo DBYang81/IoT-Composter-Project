@@ -54,15 +54,18 @@ int main(){
 
     //vars for mqtt
     err_t err;
-    char payload_buf[60];
-
+    char payload_buf[100];
+    const char* meg[3] = {"{\"message\":\"Put more wastes!\"}",
+	    "{\"message\":\"Humidity too HIGH!\"}",
+	    "{\"message\":\"Temperature too HIGH!\"}"
+    };
 
     while (1){
         
         cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 1);
 
 	distance = getCm();
-        printf("Object is %5.2f cm away. \n", distance);
+       // printf("Object is %5.2f cm away. \n", distance);
        
 
 	th = getTempAndHumidityData();
@@ -86,18 +89,20 @@ int main(){
         }
             
         //form mqtt message
-        snprintf(payload_buf, 60, "{\"temperature\":\"%.1f\",\"humidity\":\"%.1f\",\"distance\":\"%5.2f\"}", deg, hum, distance);
+        snprintf(payload_buf, 100, "{\"temperature\":\"%.1f\",\"humidity\":\"%.1f\",\"distance\":\"%5.2f\"}", deg, hum, distance);
 	
-	printf("%s", payload_buf);
+	printf("%s\n", payload_buf);
 
         //publish message
         err = mqtt_publish(client, "controller/status", payload_buf, strlen(payload_buf), 0, 0, mqtt_pub_request_cb, NULL);
 
-	if(distance < 2) {
-	        err = mqtt_publish(client, "controller/message", "Put more wastes!", strlen("Put more wastes!"), 0, 0, mqtt_pub_request_cb, NULL);
+	if(distance > 10.0) {
+	        err = mqtt_publish(client, "controller/message", meg[0], strlen(meg[0]), 0, 0, mqtt_pub_request_cb, NULL);
 
 	}else if(hum > 15){
-		err = mqtt_publish(client, "controller/message", "Humidity too HIGH!", strlen("Humidity too HIGHT!"), 0, 0, mqtt_pub_request_cb, NULL);
+		err = mqtt_publish(client, "controller/message", meg[1], strlen(meg[1]), 0, 0, mqtt_pub_request_cb, NULL);
+	}else if(deg > 30){
+		err = mqtt_publish(client, "controller/message", meg[2], strlen(meg[2]), 0, 0, mqtt_pub_request_cb, NULL);
 	}
 	if(err != ERR_OK) {
             printf("Publish err: %d\n", err);

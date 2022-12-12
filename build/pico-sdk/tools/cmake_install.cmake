@@ -1,4 +1,4 @@
-# Install script for directory: /home/dby/Documents/project/master/pico-sdk/tools
+# Install script for directory: /home/dby/Documents/project/master/IoT-Composter-Project/pico-sdk/tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -68,9 +68,9 @@ include pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.d
 
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package: pico-sdk/src/rp2_common/cyw43_driver/cyw43_resource.o
 
-pico-sdk/src/rp2_common/cyw43_driver/cyw43_resource.o: /home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/firmware/43439A0-7.95.49.00.combined
+pico-sdk/src/rp2_common/cyw43_driver/cyw43_resource.o: ../pico-sdk/lib/cyw43-driver/firmware/43439A0-7.95.49.00.combined
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_resource.o"
-	cd /home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/firmware && /usr/bin/arm-none-eabi-objcopy -I binary -O elf32-littlearm -B arm --readonly-text --rename-section .data=.big_const,contents,alloc,load,readonly,data --redefine-sym _binary_43439A0_7_95_49_00_combined_start=fw_43439A0_7_95_49_00_start --redefine-sym _binary_43439A0_7_95_49_00_combined_end=fw_43439A0_7_95_49_00_end --redefine-sym _binary_43439A0_7_95_49_00_combined_size=fw_43439A0_7_95_49_00_size 43439A0-7.95.49.00.combined /home/dby/Documents/project/master/IoT-Composter-Project/build/pico-sdk/src/rp2_common/cyw43_driver/cyw43_resource.o
+	cd /home/dby/Documents/project/master/IoT-Composter-Project/pico-sdk/lib/cyw43-driver/firmware && /usr/bin/arm-none-eabi-objcopy -I binary -O elf32-littlearm -B arm --readonly-text --rename-section .data=.big_const,contents,alloc,load,readonly,data --redefine-sym _binary_43439A0_7_95_49_00_combined_start=fw_43439A0_7_95_49_00_start --redefine-sym _binary_43439A0_7_95_49_00_combined_end=fw_43439A0_7_95_49_00_end --redefine-sym _binary_43439A0_7_95_49_00_combined_size=fw_43439A0_7_95_49_00_size 43439A0-7.95.49.00.combined /home/dby/Documents/project/master/IoT-Composter-Project/build/pico-sdk/src/rp2_common/cyw43_driver/cyw43_resource.o
 
 cyw43_firmware_package: pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package
 cyw43_firmware_package: pico-sdk/src/rp2_common/cyw43_driver/cyw43_resource.o
@@ -86,6 +86,6 @@ pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/clean
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/clean
 
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/depend:
-	cd /home/dby/Documents/project/master/IoT-Composter-Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dby/Documents/project/master/IoT-Composter-Project /home/dby/Documents/project/master/pico-sdk/src/rp2_common/cyw43_driver /home/dby/Documents/project/master/IoT-Composter-Project/build /home/dby/Documents/project/master/IoT-Composter-Project/build/pico-sdk/src/rp2_common/cyw43_driver /home/dby/Documents/project/master/IoT-Composter-Project/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dby/Documents/project/master/IoT-Composter-Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dby/Documents/project/master/IoT-Composter-Project /home/dby/Documents/project/master/IoT-Composter-Project/pico-sdk/src/rp2_common/cyw43_driver /home/dby/Documents/project/master/IoT-Composter-Project/build /home/dby/Documents/project/master/IoT-Composter-Project/build/pico-sdk/src/rp2_common/cyw43_driver /home/dby/Documents/project/master/IoT-Composter-Project/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/depend
 

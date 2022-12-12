@@ -1,4 +1,4 @@
-# Install script for directory: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration
+# Install script for directory: /home/dby/Documents/project/master/IoT-Composter-Project/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

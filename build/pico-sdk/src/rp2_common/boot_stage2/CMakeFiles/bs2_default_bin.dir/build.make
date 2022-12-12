@@ -86,6 +86,6 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend:
-	cd /home/dby/Documents/project/master/IoT-Composter-Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dby/Documents/project/master/IoT-Composter-Project /home/dby/Documents/project/master/pico-sdk/src/rp2_common/boot_stage2 /home/dby/Documents/project/master/IoT-Composter-Project/build /home/dby/Documents/project/master/IoT-Composter-Project/build/pico-sdk/src/rp2_common/boot_stage2 /home/dby/Documents/project/master/IoT-Composter-Project/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dby/Documents/project/master/IoT-Composter-Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dby/Documents/project/master/IoT-Composter-Project /home/dby/Documents/project/master/IoT-Composter-Project/pico-sdk/src/rp2_common/boot_stage2 /home/dby/Documents/project/master/IoT-Composter-Project/build /home/dby/Documents/project/master/IoT-Composter-Project/build/pico-sdk/src/rp2_common/boot_stage2 /home/dby/Documents/project/master/IoT-Composter-Project/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/dby/Documents/project/master/pico-sdk/tools/pioasm -I/home/dby/Documents/project/master/pico-sdk/tools/pioasm/gen
+CXX_INCLUDES = -I/home/dby/Documents/project/master/IoT-Composter-Project/pico-sdk/tools/pioasm -I/home/dby/Documents/project/master/IoT-Composter-Project/pico-sdk/tools/pioasm/gen
 
 CXX_FLAGS = -std=gnu++11
 
