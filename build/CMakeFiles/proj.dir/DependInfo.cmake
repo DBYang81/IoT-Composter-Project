@@ -27,7 +27,6 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "CFG_TUSB_DEBUG=0"
   "CFG_TUSB_MCU=OPT_MCU_RP2040"
   "CFG_TUSB_OS=OPT_OS_PICO"
-  "CYW43_LWIP=0"
   "CYW43_LWIP=1"
   "LIB_PICO_BIT_OPS=1"
   "LIB_PICO_BIT_OPS_PICO=1"
@@ -291,8 +290,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
   "/home/dby/Documents/project/master/IoT-Composter-Project/main.c" "CMakeFiles/proj.dir/main.c.obj" "gcc" "CMakeFiles/proj.dir/main.c.obj.d"
+  "/home/dby/Documents/project/master/IoT-Composter-Project/src/oled.c" "CMakeFiles/proj.dir/src/oled.c.obj" "gcc" "CMakeFiles/proj.dir/src/oled.c.obj.d"
   "/home/dby/Documents/project/master/IoT-Composter-Project/src/ssd1306.c" "CMakeFiles/proj.dir/src/ssd1306.c.obj" "gcc" "CMakeFiles/proj.dir/src/ssd1306.c.obj.d"
   "/home/dby/Documents/project/master/IoT-Composter-Project/src/temp_h.c" "CMakeFiles/proj.dir/src/temp_h.c.obj" "gcc" "CMakeFiles/proj.dir/src/temp_h.c.obj.d"
+  "/home/dby/Documents/project/master/IoT-Composter-Project/src/ultrasonic.c" "CMakeFiles/proj.dir/src/ultrasonic.c.obj" "gcc" "CMakeFiles/proj.dir/src/ultrasonic.c.obj.d"
   "/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 

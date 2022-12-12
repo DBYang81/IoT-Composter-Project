@@ -111,10 +111,38 @@ CMakeFiles/proj.dir/src/ssd1306.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/proj.dir/src/ssd1306.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dby/Documents/project/master/IoT-Composter-Project/src/ssd1306.c -o CMakeFiles/proj.dir/src/ssd1306.c.s
 
+CMakeFiles/proj.dir/src/oled.c.obj: CMakeFiles/proj.dir/flags.make
+CMakeFiles/proj.dir/src/oled.c.obj: ../src/oled.c
+CMakeFiles/proj.dir/src/oled.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/proj.dir/src/oled.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/src/oled.c.obj -MF CMakeFiles/proj.dir/src/oled.c.obj.d -o CMakeFiles/proj.dir/src/oled.c.obj -c /home/dby/Documents/project/master/IoT-Composter-Project/src/oled.c
+
+CMakeFiles/proj.dir/src/oled.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/proj.dir/src/oled.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dby/Documents/project/master/IoT-Composter-Project/src/oled.c > CMakeFiles/proj.dir/src/oled.c.i
+
+CMakeFiles/proj.dir/src/oled.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/proj.dir/src/oled.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dby/Documents/project/master/IoT-Composter-Project/src/oled.c -o CMakeFiles/proj.dir/src/oled.c.s
+
+CMakeFiles/proj.dir/src/ultrasonic.c.obj: CMakeFiles/proj.dir/flags.make
+CMakeFiles/proj.dir/src/ultrasonic.c.obj: ../src/ultrasonic.c
+CMakeFiles/proj.dir/src/ultrasonic.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/proj.dir/src/ultrasonic.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/src/ultrasonic.c.obj -MF CMakeFiles/proj.dir/src/ultrasonic.c.obj.d -o CMakeFiles/proj.dir/src/ultrasonic.c.obj -c /home/dby/Documents/project/master/IoT-Composter-Project/src/ultrasonic.c
+
+CMakeFiles/proj.dir/src/ultrasonic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/proj.dir/src/ultrasonic.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dby/Documents/project/master/IoT-Composter-Project/src/ultrasonic.c > CMakeFiles/proj.dir/src/ultrasonic.c.i
+
+CMakeFiles/proj.dir/src/ultrasonic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/proj.dir/src/ultrasonic.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dby/Documents/project/master/IoT-Composter-Project/src/ultrasonic.c -o CMakeFiles/proj.dir/src/ultrasonic.c.s
+
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
@@ -128,7 +156,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
@@ -142,7 +170,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
@@ -156,7 +184,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
@@ -170,7 +198,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -184,7 +212,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -198,7 +226,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/ha
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_claim/claim.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -212,7 +240,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/ha
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_platform/platform.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -226,7 +254,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -240,7 +268,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/ha
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -254,7 +282,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
@@ -268,7 +296,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/cy
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
@@ -282,7 +310,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
@@ -296,7 +324,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
@@ -310,7 +338,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
@@ -324,7 +352,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -338,7 +366,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -352,7 +380,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/ha
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -365,7 +393,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/ha
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -379,7 +407,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/ha
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/sem.c.obj: /home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/sem.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -393,7 +421,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_s
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -407,7 +435,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_s
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_time/time.c.obj: /home/dby/Documents/project/master/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_time/time.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_time/time.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -421,7 +449,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_t
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/dby/Documents/project/master/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -435,7 +463,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_t
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -449,7 +477,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/ha
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/datetime.c.obj: /home/dby/Documents/project/master/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/datetime.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -463,7 +491,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_u
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/pheap.c.obj: /home/dby/Documents/project/master/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/pheap.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -477,7 +505,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_u
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/queue.c.obj: /home/dby/Documents/project/master/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/queue.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/queue.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -491,7 +519,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_u
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -505,7 +533,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_s
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -519,7 +547,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/common/pico_s
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -532,7 +560,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/ha
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -546,7 +574,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/ha
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -560,7 +588,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -574,7 +602,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/ha
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -588,7 +616,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/ha
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -602,7 +630,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/ha
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -616,7 +644,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/ha
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -630,7 +658,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/ha
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -643,7 +671,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -656,7 +684,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
@@ -669,7 +697,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
@@ -683,7 +711,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -697,7 +725,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -710,7 +738,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
@@ -723,7 +751,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -736,7 +764,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
@@ -750,7 +778,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -764,7 +792,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -777,7 +805,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
@@ -791,7 +819,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -804,7 +832,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -817,7 +845,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building ASM object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
@@ -831,7 +859,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -845,7 +873,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -859,7 +887,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -873,7 +901,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -887,7 +915,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -901,7 +929,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -915,7 +943,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -929,7 +957,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/p
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -943,7 +971,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/p
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -957,7 +985,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/d
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -971,7 +999,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/d
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -985,7 +1013,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -999,7 +1027,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -1013,7 +1041,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -1027,7 +1055,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -1041,7 +1069,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -1055,7 +1083,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -1069,7 +1097,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -1083,7 +1111,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -1097,7 +1125,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -1111,7 +1139,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -1125,7 +1153,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -1139,7 +1167,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1153,7 +1181,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/t
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1167,7 +1195,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/tinyusb/src/c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1181,7 +1209,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pio/pio.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
@@ -1195,7 +1223,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/ha
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_dma/dma.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
@@ -1209,7 +1237,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/ha
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_exception/exception.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_exception/exception.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
@@ -1223,7 +1251,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/ha
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/init.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/init.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/init.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/init.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/init.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/init.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/init.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/init.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/init.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/init.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/init.c.i: cmake_force
@@ -1237,7 +1265,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/def.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/def.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/def.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/def.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/def.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/def.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/def.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/def.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/def.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/def.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/def.c.i: cmake_force
@@ -1251,7 +1279,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/dns.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/dns.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/dns.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/dns.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/dns.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/dns.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/dns.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/dns.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/dns.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/dns.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/dns.c.i: cmake_force
@@ -1265,7 +1293,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/inet_chksum.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/inet_chksum.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/inet_chksum.c.i: cmake_force
@@ -1279,7 +1307,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ip.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ip.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ip.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ip.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ip.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ip.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ip.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ip.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ip.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ip.c.i: cmake_force
@@ -1293,7 +1321,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/mem.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/mem.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/mem.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/mem.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/mem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/mem.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/mem.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/mem.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/mem.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/mem.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/mem.c.i: cmake_force
@@ -1307,7 +1335,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/memp.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/memp.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/memp.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/memp.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/memp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/memp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/memp.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/memp.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/memp.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/memp.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/memp.c.i: cmake_force
@@ -1321,7 +1349,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/netif.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/netif.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/netif.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/netif.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/netif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/netif.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/netif.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/netif.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/netif.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/netif.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/netif.c.i: cmake_force
@@ -1335,7 +1363,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/pbuf.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/pbuf.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/pbuf.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/pbuf.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/pbuf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/pbuf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/pbuf.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/pbuf.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/pbuf.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/pbuf.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/pbuf.c.i: cmake_force
@@ -1349,7 +1377,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/raw.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/raw.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/raw.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/raw.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/raw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/raw.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/raw.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/raw.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/raw.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/raw.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/raw.c.i: cmake_force
@@ -1363,7 +1391,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/stats.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/stats.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/stats.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/stats.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/stats.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/stats.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/stats.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/stats.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/stats.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/stats.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/stats.c.i: cmake_force
@@ -1377,7 +1405,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/sys.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/sys.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/sys.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/sys.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/sys.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/sys.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/sys.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/sys.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/sys.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/sys.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/sys.c.i: cmake_force
@@ -1391,7 +1419,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp.c.i: cmake_force
@@ -1405,7 +1433,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_alloc.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_alloc.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i: cmake_force
@@ -1419,7 +1447,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_tcp.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_tcp.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i: cmake_force
@@ -1433,7 +1461,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp.c.i: cmake_force
@@ -1447,7 +1475,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_in.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_in.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_in.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_in.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_in.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_in.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_in.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_in.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_in.c.i: cmake_force
@@ -1461,7 +1489,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_out.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_out.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_out.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_out.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_out.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_out.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_out.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_out.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/tcp_out.c.i: cmake_force
@@ -1475,7 +1503,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/timeouts.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/timeouts.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/timeouts.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/timeouts.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/timeouts.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/timeouts.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/timeouts.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/timeouts.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/timeouts.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/timeouts.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/timeouts.c.i: cmake_force
@@ -1489,7 +1517,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/udp.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/udp.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/udp.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/udp.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/udp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/udp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/udp.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/udp.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/udp.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/udp.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/udp.c.i: cmake_force
@@ -1503,7 +1531,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/random.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/random.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/random.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/random.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/random.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/random.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/random.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/random.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/random.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/random.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/random.c.i: cmake_force
@@ -1517,7 +1545,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/acd.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/acd.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i: cmake_force
@@ -1531,7 +1559,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i: cmake_force
@@ -1545,7 +1573,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i: cmake_force
@@ -1559,7 +1587,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i: cmake_force
@@ -1573,7 +1601,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i: cmake_force
@@ -1587,7 +1615,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i: cmake_force
@@ -1601,7 +1629,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i: cmake_force
@@ -1615,7 +1643,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i: cmake_force
@@ -1629,7 +1657,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i: cmake_force
@@ -1643,7 +1671,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i: cmake_force
@@ -1657,7 +1685,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i: cmake_force
@@ -1671,7 +1699,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i: cmake_force
@@ -1685,7 +1713,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i: cmake_force
@@ -1699,7 +1727,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i: cmake_force
@@ -1713,7 +1741,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i: cmake_force
@@ -1727,7 +1755,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i: cmake_force
@@ -1741,7 +1769,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i: cmake_force
@@ -1755,7 +1783,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i: cmake_force
@@ -1769,7 +1797,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/core
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_lib.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_lib.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_lib.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_lib.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_lib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_lib.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_lib.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_lib.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_lib.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_lib.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_lib.c.i: cmake_force
@@ -1783,7 +1811,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_msg.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_msg.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_msg.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_msg.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_msg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_msg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_msg.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_msg.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_msg.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_msg.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/api_msg.c.i: cmake_force
@@ -1797,7 +1825,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/err.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/err.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/err.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/err.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/err.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/err.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/err.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/err.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/err.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/err.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/err.c.i: cmake_force
@@ -1811,7 +1839,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/if_api.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/if_api.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/if_api.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/if_api.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/if_api.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/if_api.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/if_api.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/if_api.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/if_api.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/if_api.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/if_api.c.i: cmake_force
@@ -1825,7 +1853,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netbuf.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netbuf.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netbuf.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netbuf.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netbuf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netbuf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netbuf.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netbuf.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netbuf.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netbuf.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netbuf.c.i: cmake_force
@@ -1839,7 +1867,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netdb.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netdb.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netdb.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netdb.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netdb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netdb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netdb.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netdb.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netdb.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netdb.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netdb.c.i: cmake_force
@@ -1853,7 +1881,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netifapi.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netifapi.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netifapi.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netifapi.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netifapi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netifapi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netifapi.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netifapi.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netifapi.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netifapi.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/netifapi.c.i: cmake_force
@@ -1867,7 +1895,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/sockets.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/sockets.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/sockets.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/sockets.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/sockets.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/sockets.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/sockets.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/sockets.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/sockets.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/sockets.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/sockets.c.i: cmake_force
@@ -1881,7 +1909,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/tcpip.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/tcpip.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/tcpip.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/tcpip.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/tcpip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/tcpip.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/tcpip.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/tcpip.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/tcpip.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/tcpip.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/tcpip.c.i: cmake_force
@@ -1895,7 +1923,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/api/
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ethernet.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ethernet.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ethernet.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ethernet.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ethernet.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ethernet.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ethernet.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ethernet.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ethernet.c.i: cmake_force
@@ -1909,7 +1937,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif.c.i: cmake_force
@@ -1923,7 +1951,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i: cmake_force
@@ -1937,7 +1965,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/slipif.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/slipif.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/slipif.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/slipif.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/slipif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/slipif.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/slipif.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/slipif.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/slipif.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/slipif.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/slipif.c.i: cmake_force
@@ -1951,7 +1979,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i: cmake_force
@@ -1965,7 +1993,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6.c.i: cmake_force
@@ -1979,7 +2007,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i: cmake_force
@@ -1993,7 +2021,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/zepif.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/zepif.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/zepif.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/zepif.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/zepif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/zepif.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/zepif.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/zepif.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/zepif.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/zepif.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/zepif.c.i: cmake_force
@@ -2007,7 +2035,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/auth.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/auth.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i: cmake_force
@@ -2021,7 +2049,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i: cmake_force
@@ -2035,7 +2063,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i: cmake_force
@@ -2049,7 +2077,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i: cmake_force
@@ -2063,7 +2091,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i: cmake_force
@@ -2077,7 +2105,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/demand.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/demand.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i: cmake_force
@@ -2091,7 +2119,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eap.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eap.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i: cmake_force
@@ -2105,7 +2133,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i: cmake_force
@@ -2119,7 +2147,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i: cmake_force
@@ -2133,7 +2161,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i: cmake_force
@@ -2147,7 +2175,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i: cmake_force
@@ -2161,7 +2189,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i: cmake_force
@@ -2175,7 +2203,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i: cmake_force
@@ -2189,7 +2217,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/magic.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/magic.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i: cmake_force
@@ -2203,7 +2231,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i: cmake_force
@@ -2217,7 +2245,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i: cmake_force
@@ -2231,7 +2259,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i: cmake_force
@@ -2245,7 +2273,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i: cmake_force
@@ -2259,7 +2287,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i: cmake_force
@@ -2273,7 +2301,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i: cmake_force
@@ -2287,7 +2315,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i: cmake_force
@@ -2301,7 +2329,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i: cmake_force
@@ -2315,7 +2343,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/upap.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/upap.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i: cmake_force
@@ -2329,7 +2357,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/utils.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/utils.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i: cmake_force
@@ -2343,7 +2371,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/vj.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/vj.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i: cmake_force
@@ -2357,7 +2385,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i: cmake_force
@@ -2371,7 +2399,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i: cmake_force
@@ -2385,7 +2413,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i: cmake_force
@@ -2399,7 +2427,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i: cmake_force
@@ -2413,7 +2441,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj -c /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i: cmake_force
@@ -2427,7 +2455,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/lib/lwip/src/neti
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/nosys.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/nosys.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/nosys.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/nosys.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/nosys.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/nosys.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/nosys.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/nosys.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/nosys.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/nosys.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/nosys.c.i: cmake_force
@@ -2441,7 +2469,7 @@ CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pi
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/proj.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -MF CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d -o CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 
 CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
@@ -2457,6 +2485,8 @@ proj_OBJECTS = \
 "CMakeFiles/proj.dir/main.c.obj" \
 "CMakeFiles/proj.dir/src/temp_h.c.obj" \
 "CMakeFiles/proj.dir/src/ssd1306.c.obj" \
+"CMakeFiles/proj.dir/src/oled.c.obj" \
+"CMakeFiles/proj.dir/src/ultrasonic.c.obj" \
 "CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj" \
 "CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj" \
 "CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj" \
@@ -2632,6 +2662,8 @@ proj_EXTERNAL_OBJECTS =
 proj.elf: CMakeFiles/proj.dir/main.c.obj
 proj.elf: CMakeFiles/proj.dir/src/temp_h.c.obj
 proj.elf: CMakeFiles/proj.dir/src/ssd1306.c.obj
+proj.elf: CMakeFiles/proj.dir/src/oled.c.obj
+proj.elf: CMakeFiles/proj.dir/src/ultrasonic.c.obj
 proj.elf: CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
 proj.elf: CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
 proj.elf: CMakeFiles/proj.dir/home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
@@ -2804,7 +2836,7 @@ proj.elf: CMakeFiles/proj.dir/build.make
 proj.elf: pico-sdk/src/rp2_common/cyw43_driver/cyw43_resource.o
 proj.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 proj.elf: CMakeFiles/proj.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Linking CXX executable proj.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dby/Documents/project/master/IoT-Composter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Linking CXX executable proj.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/proj.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objcopy -Oihex /home/dby/Documents/project/master/IoT-Composter-Project/build/proj.elf proj.hex
 	/usr/bin/arm-none-eabi-objcopy -Obinary /home/dby/Documents/project/master/IoT-Composter-Project/build/proj.elf proj.bin

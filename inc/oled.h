@@ -1,3 +1,6 @@
+#ifndef OLED_H
+#define OLED_H
+
 #include <stdio.h>
 #include <stdint.h>
 #include <string.h>
@@ -11,26 +14,21 @@
 
 
 //i2c stuff
-    i2c_init(i2c0, 200000); //choose i2c0, 200k speed
-    gpio_set_function(0, GPIO_FUNC_I2C); //sda
-    gpio_set_function(1, GPIO_FUNC_I2C); //scl
-    gpio_pull_up(0); //sda
-    gpio_pull_up(1); //scl
- 
+void getI2cInit();
 
-//initialize oled 
-    ssd1306_t disp;
-    disp.external_vcc = false;
-    ssd1306_init(&disp, 128, 64, 0x3C, i2c0);
-    ssd1306_contrast(&disp, 0x1F);
-    ssd1306_clear(&disp);
+void initOled();
 
-void printIntoStrDeg(char* str, double deg);
+void printIntoStrDeg(char* buff, float deg);
 
-void printIntoStrHum(char* str, double hum);
+void printIntoStrHum(char* buffer, float hum);
 
 void oledClean();
 
-void oledDisplay(int x, int y, int font, char* str);
+void oledDisplay(int x, int y, int font, char* s);
 
 void oledShow();
+
+
+
+
+#endif

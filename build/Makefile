@@ -4100,6 +4100,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/main.c.s
 .PHONY : main.c.s
 
+src/oled.obj: src/oled.c.obj
+.PHONY : src/oled.obj
+
+# target to build an object file
+src/oled.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/oled.c.obj
+.PHONY : src/oled.c.obj
+
+src/oled.i: src/oled.c.i
+.PHONY : src/oled.i
+
+# target to preprocess a source file
+src/oled.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/oled.c.i
+.PHONY : src/oled.c.i
+
+src/oled.s: src/oled.c.s
+.PHONY : src/oled.s
+
+# target to generate assembly for a file
+src/oled.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/oled.c.s
+.PHONY : src/oled.c.s
+
 src/ssd1306.obj: src/ssd1306.c.obj
 .PHONY : src/ssd1306.obj
 
@@ -4147,6 +4171,30 @@ src/temp_h.s: src/temp_h.c.s
 src/temp_h.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/temp_h.c.s
 .PHONY : src/temp_h.c.s
+
+src/ultrasonic.obj: src/ultrasonic.c.obj
+.PHONY : src/ultrasonic.obj
+
+# target to build an object file
+src/ultrasonic.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/ultrasonic.c.obj
+.PHONY : src/ultrasonic.c.obj
+
+src/ultrasonic.i: src/ultrasonic.c.i
+.PHONY : src/ultrasonic.i
+
+# target to preprocess a source file
+src/ultrasonic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/ultrasonic.c.i
+.PHONY : src/ultrasonic.c.i
+
+src/ultrasonic.s: src/ultrasonic.c.s
+.PHONY : src/ultrasonic.s
+
+# target to generate assembly for a file
+src/ultrasonic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/ultrasonic.c.s
+.PHONY : src/ultrasonic.c.s
 
 # Help Target
 help:
@@ -4649,12 +4697,18 @@ help:
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/oled.obj"
+	@echo "... src/oled.i"
+	@echo "... src/oled.s"
 	@echo "... src/ssd1306.obj"
 	@echo "... src/ssd1306.i"
 	@echo "... src/ssd1306.s"
 	@echo "... src/temp_h.obj"
 	@echo "... src/temp_h.i"
 	@echo "... src/temp_h.s"
+	@echo "... src/ultrasonic.obj"
+	@echo "... src/ultrasonic.i"
+	@echo "... src/ultrasonic.s"
 .PHONY : help
 
 

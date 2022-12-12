@@ -1,3 +1,6 @@
+#ifndef TEMP_H_H
+#define TEMP_H_H
+
 #include <stdio.h>
 #include <math.h>
 #include "pico/cyw43_arch.h"
@@ -8,7 +11,7 @@
 typedef struct tempHumi{
 	float humidity;
 	float temp;
-}tempHumi;
+}tpHumi;
 
 
 /*uint8_t status; //var for status
@@ -20,6 +23,6 @@ const uint8_t measureReqCmd = 0x00; //measurement request command
 const uint8_t statusCmd = 0x01; //status bit
 */
 
-tempHumi getTempAndHumidityData ();
+tpHumi getTempAndHumidityData ();
 
-
+#endif

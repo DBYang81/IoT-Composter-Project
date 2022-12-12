@@ -1,6 +1,6 @@
-CMakeFiles/proj.dir/ssd1306.c.obj: \
- /home/dby/Documents/project/master/IoT-Composter-Project/ssd1306.c \
- /home/dby/Documents/project/master/IoT-Composter-Project/ssd1306.h \
+CMakeFiles/proj.dir/src/ultrasonic.c.obj: \
+ /home/dby/Documents/project/master/IoT-Composter-Project/src/ultrasonic.c \
+ /home/dby/Documents/project/master/IoT-Composter-Project/src/../inc/ultrasonic.h \
  /home/dby/Documents/project/master/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
  /home/dby/Documents/project/master/pico-sdk/src/common/pico_base/include/pico.h \
  /home/dby/Documents/project/master/pico-sdk/src/common/pico_base/include/pico/types.h \
@@ -46,26 +46,57 @@ CMakeFiles/proj.dir/ssd1306.c.obj: \
  /home/dby/Documents/project/master/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /home/dby/Documents/project/master/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
  /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
- /home/dby/Documents/project/master/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
- /home/dby/Documents/project/master/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
- /home/dby/Documents/project/master/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
- /usr/include/newlib/stdlib.h /usr/include/newlib/sys/reent.h \
- /usr/include/newlib/_ansi.h /usr/include/newlib/sys/_types.h \
- /usr/include/newlib/machine/_types.h /usr/include/newlib/sys/lock.h \
- /usr/include/newlib/machine/stdlib.h /usr/include/newlib/alloca.h \
  /usr/include/newlib/stdio.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
- /usr/include/newlib/sys/types.h /usr/include/newlib/sys/_stdint.h \
- /usr/include/newlib/machine/endian.h \
+ /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/types.h \
+ /usr/include/newlib/sys/_stdint.h /usr/include/newlib/machine/endian.h \
  /usr/include/newlib/machine/_endian.h /usr/include/newlib/sys/select.h \
  /usr/include/newlib/sys/_sigset.h /usr/include/newlib/sys/_timeval.h \
  /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
  /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
- /usr/include/newlib/string.h /usr/include/newlib/sys/_locale.h \
- /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
- /home/dby/Documents/project/master/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
- /home/dby/Documents/project/master/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
- /home/dby/Documents/project/master/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
- /home/dby/Documents/project/master/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
- /home/dby/Documents/project/master/IoT-Composter-Project/font.h
+ /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_config.h \
+ /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/include/cyw43_configport.h \
+ /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h \
+ /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_common.h \
+ /home/dby/Documents/project/master/pico-sdk/src/common/pico_base/include/pico/error.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/netif.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/opt.h \
+ /home/dby/Documents/project/master/IoT-Composter-Project/lwipopts.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/debug.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/arch.h \
+ /home/dby/Documents/project/master/pico-sdk/src/rp2_common/pico_lwip/include/arch/cc.h \
+ /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
+ /usr/include/newlib/alloca.h /usr/include/newlib/inttypes.h \
+ /usr/include/newlib/sys/_intsup.h /usr/include/newlib/sys/_locale.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed/limits.h \
+ /usr/include/newlib/ctype.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/err.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/def.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/def.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/stats.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/mem.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/memp.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/udp.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/ip.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/ip4.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/ip6.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
+ /usr/include/newlib/string.h /usr/include/newlib/strings.h \
+ /usr/include/newlib/sys/string.h \
+ /home/dby/Documents/project/master/pico-sdk/lib/cyw43-driver/src/cyw43_country.h

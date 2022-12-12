@@ -8,7 +8,11 @@ gpio_pull_up(14); //sda pullup
 gpio_pull_up(15); //scl pullup
 */
 
-tempHumi getTempAndHumidityData(){
+
+
+
+
+tpHumi getTempAndHumidityData(){
 	
 	i2c_init(i2c1, 200000); //choose i2c1, 200k speed
 	gpio_set_function(14, GPIO_FUNC_I2C); //SDA
@@ -39,7 +43,7 @@ tempHumi getTempAndHumidityData(){
 	unsigned int comb_temp = ((unsigned int) arr[2] << 8) + arr[3];
 	float temp = (comb_temp >> 2) / (pow(2, 14) - 2) * 165 - 40;
 
-	tempHumi tempAndHumidity = {humidity, temp};
+	tpHumi tempAndHumidity = {humidity, temp};
 
 	return tempAndHumidity;
 

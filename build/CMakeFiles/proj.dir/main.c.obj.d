@@ -107,4 +107,8 @@ CMakeFiles/proj.dir/main.c.obj: \
  /home/dby/Documents/project/master/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
  /home/dby/Documents/project/master/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
  /home/dby/Documents/project/master/IoT-Composter-Project/inc/temp_h.h \
- /usr/include/newlib/math.h
+ /usr/include/newlib/math.h \
+ /home/dby/Documents/project/master/IoT-Composter-Project/inc/ultrasonic.h \
+ /home/dby/Documents/project/master/IoT-Composter-Project/inc/oled.h \
+ /home/dby/Documents/project/master/IoT-Composter-Project/inc/ssd1306.h \
+ /home/dby/Documents/project/master/IoT-Composter-Project/inc/temp_h.h
