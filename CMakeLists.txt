@@ -17,6 +17,8 @@ add_executable(proj
 	./src/ssd1306.c
 	./inc/ssd1306.h
 	./inc/font.h
+	./src/proj_mqtt.c
+	./inc/proj_mqtt.h
 )
 
 
