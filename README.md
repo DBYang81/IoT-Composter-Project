@@ -4,13 +4,13 @@ In our project, we are planning to utilize the internet technology, Microcontrol
 
 The purpose of this project is to design a smart system for those people who have zero-experience in decomposing processes  (anyone) to conduct decomposition much more efficiently and effectively. 
 
-##Web UI:
+## Web UI:
 
 Web UI should provide the certain key information / statistics for bio-waste already in the box, the possible key information as follows:
 
 Days or duration of first bio-waste in the box
-Temperature figure - perhaps with heating pad if needed (optional)
-Humidity figure
+Temperature 
+Humidity
 Emptiness - indicates how much bio-waste has been left in the box
 
 Functionality of Web UI:
@@ -19,22 +19,22 @@ Alert the end user about current situation in the box in order to change (end us
 Activate actuator like heating pad when cold temperature (optional)
 
 
-##Embedded Components:
+## Embedded Components:
 
 For embedded systems, LCD should indicate the certain key figures and leds (red, green, blue) should provide visible warning which should be the same as the web ui display. 
 
-###Sensors:
+### Sensors:
 -temperature sensor
 -humidity sensor (or moisture sensor)
 -Ultrasonic sensor
 
-###Prototype Material:
--Pvc material?
--Glass
--Styrofoam
+### Prototype Material:
+- Pvc material?
+- Glass
+- Styrofoam
 
-###Components:
-Oled display
-Rasperrybi pico_w
-Wires and socket (Battery for prototype)
-leds
+### Components:
+- Oled display
+- Rasperrybi pico_w
+- Wires and socket (Battery for prototype)
+- leds
