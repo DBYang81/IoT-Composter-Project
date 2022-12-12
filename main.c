@@ -101,7 +101,7 @@ int main(){
         snprintf(payload_buf, 30, "{\"temp\":\"%.1f\",\"hum\":\"%.1f\"}", deg, hum);
 
 	//publish message
-        err = mqtt_publish(client, data_topic, payload_buf, strlen(payload_buf), 0, 0, mqtt_pub_request_cb, NULL);
+        err = mqtt_publish(client, "controller/status", payload_buf, strlen(payload_buf), 0, 0, mqtt_pub_request_cb, NULL);
         if(err != ERR_OK) {
             printf("Publish err: %d\n", err);
         }
