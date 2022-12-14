@@ -11,6 +11,12 @@
 #include "inc/oled.h"
 #include "inc/proj_mqtt.h"
 #include "lwipopts.h"
+#include "hardware/gpio.h"
+
+
+const uint LED_PIN_1 = 19;
+const uint LED_PIN_2 = 18;
+const uint LED_PIN_3 = 20;
 
 int main(){
     
@@ -20,6 +26,9 @@ int main(){
         return -1;
     }
 
+    gpio_init(LED_PIN_1);
+    gpio_set_dir(LED_PIN_1, GPIO_OUT);
+    
     getI2cInit();
     initOled();
 
@@ -55,13 +64,22 @@ int main(){
     //vars for mqtt
     err_t err;
     char payload_buf[100];
-    const char* meg[3] = {"{\"message\":\"Put more wastes!\"}",
+    const char* meg[5] = {"{\"message\":\"Put more wastes!\"}",
 	    "{\"message\":\"Humidity too HIGH!\"}",
-	    "{\"message\":\"Temperature too HIGH!\"}"
+	    "{\"message\":\"Humidity too LOW!\"}",
+	    "{\"message\":\"Temperature too HIGH!\"}",
+	    "{\"message\":\"Temperature too LOW!\"}"
     };
 
     while (1){
         
+	gpio_put(LED_PIN_1, 1);
+        sleep_ms(2000);
+        gpio_put(LED_PIN_1, 0);
+        sleep_ms(2000);
+
+
+
         cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 1);
 
 	distance = getCm();
@@ -89,20 +107,28 @@ int main(){
         }
             
         //form mqtt message
-        snprintf(payload_buf, 100, "{\"temperature\":\"%.1f\",\"humidity\":\"%.1f\",\"distance\":\"%5.2f\"}", deg, hum, distance);
+        snprintf(payload_buf, 150, "{\"temperature\":\"%.1f\",\"humidity\":\"%.1f\",\"distance\":\"%5.2f\"}", deg, hum, distance);
 	
 	printf("%s\n", payload_buf);
+
 
         //publish message
         err = mqtt_publish(client, "controller/status", payload_buf, strlen(payload_buf), 0, 0, mqtt_pub_request_cb, NULL);
 
-	if(distance > 10.0) {
+	if(distance > 10.0 && distance < 20.0) {
 	        err = mqtt_publish(client, "controller/message", meg[0], strlen(meg[0]), 0, 0, mqtt_pub_request_cb, NULL);
 
-	}else if(hum > 15){
+	}else if(hum > 35.0){
 		err = mqtt_publish(client, "controller/message", meg[1], strlen(meg[1]), 0, 0, mqtt_pub_request_cb, NULL);
-	}else if(deg > 30){
+
+	}else if(hum < 10.0){
 		err = mqtt_publish(client, "controller/message", meg[2], strlen(meg[2]), 0, 0, mqtt_pub_request_cb, NULL);
+	}
+	else if(deg > 25.0){
+		err = mqtt_publish(client, "controller/message", meg[3], strlen(meg[3]), 0, 0, mqtt_pub_request_cb, NULL);
+	}
+	else if(deg < 5.0){
+		err = mqtt_publish(client, "controller/message", meg[4], strlen(meg[4]), 0, 0, mqtt_pub_request_cb, NULL);
 	}
 	if(err != ERR_OK) {
             printf("Publish err: %d\n", err);
