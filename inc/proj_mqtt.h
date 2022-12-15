@@ -9,6 +9,8 @@ static const char wifi_pass[] = "SmartIot";
 
 static int inpub_id;
 
+extern int mqtt_led_done;
+
 void mqtt_connect(mqtt_client_t *client);
 void mqtt_connect_cb(mqtt_client_t *client, void *arg, mqtt_connection_status_t status);
 void mqtt_sub_request_cb(void *arg, err_t result);
