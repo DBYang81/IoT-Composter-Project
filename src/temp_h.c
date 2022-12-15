@@ -15,10 +15,10 @@ gpio_pull_up(15); //scl pullup
 tpHumi getTempAndHumidityData(){
 	
 	i2c_init(i2c1, 200000); //choose i2c1, 200k speed
-	gpio_set_function(14, GPIO_FUNC_I2C); //SDA
-	gpio_set_function(15, GPIO_FUNC_I2C); //SCL
-	gpio_pull_up(14); //sda pullup
-	gpio_pull_up(15); //scl pullup
+	gpio_set_function(18, GPIO_FUNC_I2C); //SDA
+	gpio_set_function(19, GPIO_FUNC_I2C); //SCL
+	gpio_pull_up(18); //sda pullup
+	gpio_pull_up(19); //scl pullup
 
 
 
@@ -48,3 +48,4 @@ tpHumi getTempAndHumidityData(){
 	return tempAndHumidity;
 
 }
+

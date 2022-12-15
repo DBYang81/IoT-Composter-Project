@@ -14,9 +14,9 @@
 #include "hardware/gpio.h"
 
 
-const uint LED_PIN_1 = 19;
-const uint LED_PIN_2 = 18;
-const uint LED_PIN_3 = 20;
+//const uint LED_PIN_1 = 19;
+//const uint LED_PIN_2 = 18;
+//const uint LED_PIN_3 = 20;
 
 int main(){
     
@@ -26,8 +26,8 @@ int main(){
         return -1;
     }
 
-    gpio_init(LED_PIN_1);
-    gpio_set_dir(LED_PIN_1, GPIO_OUT);
+//    gpio_init(LED_PIN_1);
+  //  gpio_set_dir(LED_PIN_1, GPIO_OUT);
     
     getI2cInit();
     initOled();
@@ -73,10 +73,10 @@ int main(){
 
     while (1){
         
-	gpio_put(LED_PIN_1, 1);
-        sleep_ms(2000);
-        gpio_put(LED_PIN_1, 0);
-        sleep_ms(2000);
+//	gpio_put(LED_PIN_1, 1);
+//        sleep_ms(2000);
+//        gpio_put(LED_PIN_1, 0);
+//        sleep_ms(2000);
 
 
 
