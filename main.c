@@ -14,7 +14,7 @@
 #include "hardware/gpio.h"
 
 
-//const uint LED_PIN_1 = 19;
+const uint LED_PIN_1 = 5;
 //const uint LED_PIN_2 = 18;
 //const uint LED_PIN_3 = 20;
 
@@ -28,8 +28,8 @@ int main(){
         return -1;
     }
 
-//    gpio_init(LED_PIN_1);
-  //  gpio_set_dir(LED_PIN_1, GPIO_OUT);
+    gpio_init(LED_PIN_1);
+    gpio_set_dir(LED_PIN_1, GPIO_OUT);
     
     getI2cInit();
     initOled();
@@ -73,15 +73,11 @@ int main(){
 	    "{\"message\":\"Temperature too LOW!\"}"
     };
 
+
+   int message_led = 0;
+
     while (1){
         
-//	gpio_put(LED_PIN_1, 1);
-//        sleep_ms(2000);
-//        gpio_put(LED_PIN_1, 0);
-//        sleep_ms(2000);
-
-
-
         cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 1);
 
 	distance = getCm();
@@ -119,24 +115,42 @@ int main(){
 
 	if(distance > 10.0 && distance < 20.0) {
 	        err = mqtt_publish(client, "controller/message", meg[0], strlen(meg[0]), 0, 0, mqtt_pub_request_cb, NULL);
-
+		message_led = 1;
 	}else if(hum > 35.0){
 		err = mqtt_publish(client, "controller/message", meg[1], strlen(meg[1]), 0, 0, mqtt_pub_request_cb, NULL);
-
+		message_led = 1;
 	}else if(hum < 10.0){
 		err = mqtt_publish(client, "controller/message", meg[2], strlen(meg[2]), 0, 0, mqtt_pub_request_cb, NULL);
+		message_led = 1;
 	}
 	else if(deg > 25.0){
 		err = mqtt_publish(client, "controller/message", meg[3], strlen(meg[3]), 0, 0, mqtt_pub_request_cb, NULL);
+		message_led = 1;
 	}
 	else if(deg < 5.0){
 		err = mqtt_publish(client, "controller/message", meg[4], strlen(meg[4]), 0, 0, mqtt_pub_request_cb, NULL);
+		message_led = 1;
 	}
 	if(err != ERR_OK) {
             printf("Publish err: %d\n", err);
         }
 
-    }  
+	//led on off
+	printf("message led = %d, mqtt led done = %d/n", message_led, mqtt_led_done);
+	if (message_led == 1) {
+		printf("turn led on/n");
+		gpio_put(LED_PIN_1, true);
+		message_led = 0;
+	}else if(mqtt_led_done){
+		printf("turn led off/n");
+		gpio_put(LED_PIN_1, false);
+		mqtt_led_done = 0;
+		message_led = 0;
+   	 }
+    
+	sleep_ms(5000);
+    }
+
   
     return 0;
 }

@@ -64,16 +64,19 @@ void mqtt_incoming_data_cb(void *arg, const u8_t *data, u16_t len, u8_t flags) {
     printf("Incoming publish payload with length %d, flags %u\n", len, (unsigned int)flags);
 
     //TODO: modify
+    char buf[50] = {0};
     printf("Payload: ");
     for (int i=0;i<len;i++) {
         printf("%c",data[i]);
+	buf[i] = data[i];
     }
     printf("\n");
 
     char* ret;
-    char val[10];
+    /*char val[10];
     char key[10];
-
+	
+    char buf[50] = {0};
     ret = strstr(buf, "message");
     if (ret != NULL) {
         sscanf(ret, "%7s%*s", key);
@@ -93,10 +96,16 @@ void mqtt_incoming_data_cb(void *arg, const u8_t *data, u16_t len, u8_t flags) {
     }
 
     if (strcmp(val, "Done") == 0) {
-        led_done = 1;
+       mqtt_led_done = 1;
         printf("led_done set to 1\n");
-    }
+    }*/
     
+    ret = strstr(buf, "Done");
+    if (ret != NULL) {
+	mqtt_led_done = 1;
+	printf("mqtt led done set");
+    }
+
     /*if(flags & MQTT_DATA_FLAG_LAST) {
         if (inpub_id == 1) {
             if(data[len-1] == 0) {
