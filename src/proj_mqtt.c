@@ -28,7 +28,7 @@ void mqtt_connect_cb(mqtt_client_t *client, void *arg, mqtt_connection_status_t 
 
         mqtt_set_inpub_callback(client, mqtt_incoming_publish_cb, mqtt_incoming_data_cb, arg);
 
-        err = mqtt_subscribe(client, "controller/command", 1, mqtt_sub_request_cb, arg);
+        err = mqtt_subscribe(client, "controller/led", 1, mqtt_sub_request_cb, arg);
 
         if (err != ERR_OK) {
             printf("mqtt_connect_cb: subscribe returns %d\n", err);
@@ -51,7 +51,7 @@ void mqtt_incoming_publish_cb(void *arg, const char *topic, u32_t tot_len) {
     printf("Incoming publish at topic %s with total length %u\n", topic, (unsigned int)tot_len);
 
     //TODO: modify
-    if (strcmp(topic, "controller/command") == 0) {
+    if (strcmp(topic, "controller/led") == 0) {
         inpub_id = 1;
     }
     else {
@@ -64,12 +64,40 @@ void mqtt_incoming_data_cb(void *arg, const u8_t *data, u16_t len, u8_t flags) {
     printf("Incoming publish payload with length %d, flags %u\n", len, (unsigned int)flags);
 
     //TODO: modify
+    printf("Payload: ");
     for (int i=0;i<len;i++) {
         printf("%c",data[i]);
     }
     printf("\n");
 
-    if(flags & MQTT_DATA_FLAG_LAST) {
+    char* ret;
+    char val[10];
+    char key[10];
+
+    ret = strstr(buf, "message");
+    if (ret != NULL) {
+        sscanf(ret, "%7s%*s", key);
+        printf("Payload key: %s\n", key);
+    }
+    else {
+        printf("Payload has invalid key\n");
+    }
+
+    ret = strstr(buf, "Done");
+    if (ret != NULL) {
+        sscanf(ret, "%4s%*s", val);
+        printf("Payload value: %s\n", val);
+    }
+    else {
+        printf("Payload has invalid value\n");
+    }
+
+    if (strcmp(val, "Done") == 0) {
+        led_done = 1;
+        printf("led_done set to 1\n");
+    }
+    
+    /*if(flags & MQTT_DATA_FLAG_LAST) {
         if (inpub_id == 1) {
             if(data[len-1] == 0) {
                 printf("mqtt_incoming_data_cb: %s\n", (const char *)data);
@@ -77,7 +105,7 @@ void mqtt_incoming_data_cb(void *arg, const u8_t *data, u16_t len, u8_t flags) {
         }
     } else {
         // Handle fragmented payload, store in buffer, write to file or whatever 
-    }
+    }*/
 }
 
 void mqtt_pub_request_cb(void *arg, err_t result) {
