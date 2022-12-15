@@ -18,6 +18,8 @@
 //const uint LED_PIN_2 = 18;
 //const uint LED_PIN_3 = 20;
 
+int mqtt_led_done = 0;
+
 int main(){
     
     stdio_init_all();
